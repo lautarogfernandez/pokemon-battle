@@ -1,3 +1,4 @@
+import React from "react";
 import { ButtonBase, Card, CardMedia } from "@mui/material";
 import { IPokemon } from "../../models/pokemon";
 

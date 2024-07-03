@@ -1,3 +1,4 @@
+import React from "react";
 import { Box, Typography } from "@mui/material";
 import PokemonSelectionCard from "../pokemonSelectionCard";
 import { IPokemon } from "../../models/pokemon";
@@ -14,6 +15,7 @@ const PokemonSelection: React.FC = () => {
       if (selected.length > 2) {
         selected = selected.slice(1);
       }
+
       setPokemonsSelected(selected);
       setWinner(null);
     }

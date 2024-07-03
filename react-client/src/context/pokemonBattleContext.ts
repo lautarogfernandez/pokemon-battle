@@ -1,7 +1,7 @@
-import { createContext, useContext } from "react";
+import React, { createContext, useContext } from "react";
 import { IPokemon } from "../models/pokemon";
 
-interface IPokemonBattleContext {
+export interface IPokemonBattleContext {
   pokemons: IPokemon[];
   setPokemons: React.Dispatch<
     React.SetStateAction<IPokemonBattleContext["pokemons"]>
