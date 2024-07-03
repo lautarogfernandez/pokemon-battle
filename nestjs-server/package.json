@@ -1,6 +1,6 @@
 {
-  "name": "nestjs-typeorm-sqlite",
-  "version": "0.0.1",
+  "name": "pokemon-battle-server",
+  "version": "1.0.0",
   "description": "",
   "author": "",
   "private": true,
